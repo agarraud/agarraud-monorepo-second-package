@@ -22,4 +22,11 @@ final class SecondClassTest extends TestCase
 
         self::assertSame('hello from second', $second->greet());
     }
+
+    public function testFarewellUsesName(): void
+    {
+        $second = new SecondClass();
+
+        self::assertSame('bye from second', $second->farewell());
+    }
 }

@@ -15,4 +15,9 @@ class SecondClass
     {
         return sprintf('hello from %s', $this->name());
     }
+
+    public function farewell(): string
+    {
+        return sprintf('bye from %s', $this->name());
+    }
 }
