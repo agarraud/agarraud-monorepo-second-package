@@ -18,7 +18,7 @@ class SecondClass
 
     public function farewell(): string
     {
-        return sprintf('bye test post 1.0.16  from %s', $this->name());
+        return sprintf('bye test post 1.0.18 from %s', $this->name());
     }
 
     public function untaggedMarker(): string
