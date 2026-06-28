@@ -1,19 +1,19 @@
 {
-  "name": "agarraud/agarraud-monorepo-second-package",
-  "require": {
-    "symfony/dependency-injection": "^5.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^11.5"
-  },
-  "autoload": {
-    "psr-4": {
-      "Agarraud\\AgarraudMonorepoSecondPackage\\": "src"
+    "name": "agarraud/agarraud-monorepo-second-package",
+    "require": {
+        "symfony/dependency-injection": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Agarraud\\AgarraudMonorepoSecondPackage\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Agarraud\\AgarraudMonorepoSecondPackage\\Tests\\": "tests"
+        }
     }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Agarraud\\AgarraudMonorepoSecondPackage\\Tests\\": "tests"
-    }
-  }
 }
