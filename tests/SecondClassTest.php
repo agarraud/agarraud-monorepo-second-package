@@ -15,4 +15,11 @@ final class SecondClassTest extends TestCase
 
         self::assertSame('second', $second->name());
     }
+
+    public function testGreetUsesName(): void
+    {
+        $second = new SecondClass();
+
+        self::assertSame('hello from second', $second->greet());
+    }
 }

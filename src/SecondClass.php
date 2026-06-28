@@ -10,4 +10,9 @@ class SecondClass
     {
         return 'second';
     }
+
+    public function greet(): string
+    {
+        return sprintf('hello from %s', $this->name());
+    }
 }
