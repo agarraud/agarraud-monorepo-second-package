@@ -15,5 +15,10 @@
         "psr-4": {
             "Agarraud\\AgarraudMonorepoSecondPackage\\Tests\\": "tests"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.1-dev"
+        }
     }
 }
