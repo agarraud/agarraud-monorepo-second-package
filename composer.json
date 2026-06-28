@@ -1,0 +1,11 @@
+{
+  "name": "agarraud/agarraud-monorepo-second-package",
+  "require": {
+    "symfony/dependency-injection": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Agarraud\\AgarraudMonorepoSecondPackage\\": "src"
+    }
+  }
+}
