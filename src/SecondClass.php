@@ -6,4 +6,8 @@ namespace Agarraud\AgarraudMonorepoSecondPackage;
 
 class SecondClass
 {
+    public function name(): string
+    {
+        return 'second';
+    }
 }
