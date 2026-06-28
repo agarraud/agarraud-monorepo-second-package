@@ -20,4 +20,9 @@ class SecondClass
     {
         return sprintf('bye from %s', $this->name());
     }
+
+    public function untaggedMarker(): string
+    {
+        return 'untagged change visible via dev-main';
+    }
 }
