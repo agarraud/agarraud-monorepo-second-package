@@ -1,5 +1,7 @@
 {
     "name": "agarraud/agarraud-monorepo-second-package",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "symfony/dependency-injection": "^5.0"
     },
